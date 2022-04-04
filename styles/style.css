@@ -1,0 +1,26 @@
+.table {
+   background-color: whitesmoke;
+   width: 800px;
+   height: 600px;
+   border:1px solid black;
+   margin: 0 auto;
+   position: relative;
+}
+.user {
+   background-color: white;
+   border:2px solid black;
+   width: 10em;
+   height: 5em;
+   position: absolute;
+}
+
+
+.table__user1 {
+   bottom: 0;
+   left: 50%;
+   transform: translate(-50%);
+}
+.table__user2 {
+   left: 50%;
+   transform: translate(-50%);
+}
