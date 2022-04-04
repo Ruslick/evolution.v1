@@ -1,7 +1,7 @@
 .table {
    background-color: whitesmoke;
-   width: 800px;
-   height: 600px;
+   width: 1024px;
+   height: 700px;
    border:1px solid black;
    margin: 0 auto;
    position: relative;
@@ -9,18 +9,44 @@
 .user {
    background-color: white;
    border:2px solid black;
-   width: 10em;
+   width: 30em;
    height: 5em;
    position: absolute;
+   display: flex;
+   gap: 20px
 }
 
-
-.table__user1 {
+/* Игроки */
+.table__user1 { 
    bottom: 0;
    left: 50%;
    transform: translate(-50%);
+   list-style: none;
+   
 }
 .table__user2 {
    left: 50%;
    transform: translate(-50%);
+}
+
+
+.table__card-menu {
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   bottom: 0;  
+   
+}
+
+
+/* Кнопки */
+.btn {
+   border: 1px solid darkslategray;
+   padding: .5em 1em;
+   border-radius: 5px;
+   background-color: tomato;
+   margin: .5em;
+}
+.btn:active {
+   background-color: rgb(180, 67, 48);
 }
