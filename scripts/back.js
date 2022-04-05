@@ -26,15 +26,16 @@ class User{     // солздание игрока
       }
       
    }
+
    reloadCards() { // обновить карты игрока
-      let acc = '';
+      document.querySelector('.table__user1').innerHTML = null;
       for(let i = 0; i < this.hand.length; i++) {
-         acc += `<li 
-            data-card-id="${this.hand[i].id}" 
-            class ="table__user-cards">
-            ${this.hand[i].name}</li>`  
+         let li = document.createElement('li');
+         li.className = 'table__user-cards';
+         li.innerHTML = this.hand[i].name;
+         li.dataset.cardId = this.hand[i].id;
+         document.querySelector('.table__user1').append(li);
       }
-      document.querySelector('.table__user1').innerHTML = acc;
    }
 } 
 

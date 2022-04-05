@@ -8,7 +8,7 @@
 }
 .user {
    background-color: white;
-   border:2px solid black;
+   border: 2px solid black;
    width: 36em;
    height: 5em;
    position: absolute;
@@ -17,6 +17,30 @@
    padding: 0;
 
 }
+
+.table__user1-place {
+   bottom: 7em;
+   left: 50%;
+   position: absolute;
+   display: flex;
+   background-color: #fff;
+   transform: translate(-50%);
+   padding: 0;
+   gap: .2em;
+
+}
+.table__animal {
+   list-style: none;
+   width: 6em;
+   height: 4em;
+   background-color: rgb(41, 118, 41);
+   color: white;
+   text-align: center;
+   padding: 0;
+
+}
+
+
 
 .table__user-cards {
    border: 1px solid black;

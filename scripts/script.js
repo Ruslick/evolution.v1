@@ -19,17 +19,4 @@ game.deck.reloadDeckCounter();
 
 
 
-document.querySelector('.table__create-animal')
-.addEventListener('click', function() {
-   
-   document.addEventListener('click', function(event) {
-      let id = event.path[0].dataset.cardId
-      console.log(id)
-      if (id) {
-         console.log(id)
-      }
-   }, {once: true})
-} )
-
-
 export {game}

@@ -30,7 +30,7 @@ cardTemp.fillDeck(5, "Ядовитое", "poisonous", "attacker die with victim"
 
 function mixDeck(count) {  // перемешать колоду
    while (count--) {
-   deck.sort(() => Math.random() - Math.random())
+      deck.sort(() => Math.random() - Math.random())
    }
 }
 mixDeck(1);
