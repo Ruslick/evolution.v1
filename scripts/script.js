@@ -13,10 +13,8 @@ game.adduser('andrey');
 // начало игры
 
 game.igor.takeCards(6);
-game.igor.reloadCards();
+game.igor.reloadCardsHand();
 game.deck.reloadDeckCounter();
-
-
 
 
 export {game}

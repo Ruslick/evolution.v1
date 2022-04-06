@@ -1,85 +1,130 @@
+@charset "UTF-8";
 .table {
-   background-color: whitesmoke;
-   width: 1024px;
-   height: 700px;
-   border:1px solid black;
-   margin: 0 auto;
-   position: relative;
-}
-.user {
-   background-color: white;
-   border: 2px solid black;
-   width: 36em;
-   height: 5em;
-   position: absolute;
-   display: flex;
-   gap: .2em;
-   padding: 0;
-
+  background-color: whitesmoke;
+  width: 1024px;
+  height: 700px;
+  border: 1px solid black;
+  margin: 0 auto;
+  position: relative;
+  /* Игроки */
+  /* Кнопки */
+  /*# sourceMappingURL=style.css.map */
 }
 
 .table__user1-place {
-   bottom: 7em;
-   left: 50%;
-   position: absolute;
-   display: flex;
-   background-color: #fff;
-   transform: translate(-50%);
-   padding: 0;
-   gap: .2em;
-
+  bottom: 7em;
+  left: 50%;
+  position: absolute;
+  display: flex;
+  background-color: #ffffff;
+  transform: translate(-50%);
+  padding: 0;
+  gap: .2em;
 }
+
 .table__animal {
-   list-style: none;
-   width: 6em;
-   height: 4em;
-   background-color: rgb(41, 118, 41);
-   color: white;
-   text-align: center;
-   padding: 0;
-
+  list-style: none;
+  width: 6em;
+  height: 4em;
+  background-color: #5c0f02;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
 }
 
-
+.table__animal-property-list {
+  color: black;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: absolute;
+  top: -6em;
+  left: 0;
+  display: flex;
+  flex-direction: column-reverse;
+}
 
 .table__user-cards {
-   border: 1px solid black;
-   width: 6em;
-   text-align: center;
-   overflow-wrap: break-word;
+  border: 1px solid black;
+  width: 6em;
+  text-align: center;
+  overflow-wrap: break-word;
 }
 
-/* Игроки */
-.table__user1 { 
-   bottom: 0;
-   left: 50%;
-   transform: translate(-50%);
-   list-style: none;
-   
+.table__user-cards:hover {
+  background-color: green;
 }
+
+.table .table__user1 {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  list-style: none;
+}
+
+.table .table__user2 {
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.table .table__card-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+}
+
+.table .btn {
+  border: 1px solid darkslategray;
+  padding: .5em 1em;
+  border-radius: 5px;
+  background-color: tomato;
+  margin: .5em;
+}
+
+.table .btn:focus {
+  background-color: #5c0f02;
+}
+
+.table__user1 {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  list-style: none;
+}
+
 .table__user2 {
-   left: 50%;
-   transform: translate(-50%);
+  left: 50%;
+  transform: translate(-50%);
 }
-
 
 .table__card-menu {
-   display: flex;
-   flex-direction: column;
-   position: absolute;
-   bottom: 0;  
-   
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
 }
 
+.user {
+  background-color: #ffffff;
+  border: 2px solid black;
+  width: 36em;
+  height: 5em;
+  position: absolute;
+  display: flex;
+  gap: .2em;
+  padding: 0;
+}
 
-/* Кнопки */
 .btn {
-   border: 1px solid darkslategray;
-   padding: .5em 1em;
-   border-radius: 5px;
-   background-color: tomato;
-   margin: .5em;
+  border: 1px solid darkslategray;
+  padding: .5em 1em;
+  border-radius: 5px;
+  background-color: tomato;
+  margin: .5em;
 }
+
 .btn:focus {
-   background-color: rgb(92, 15, 2);
-}  
+  background-color: #5c0f02;
+}
+/*# sourceMappingURL=style.css.map */

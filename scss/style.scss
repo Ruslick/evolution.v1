@@ -1,0 +1,134 @@
+$white: #ffffff;
+$black: black;
+$color1: #297629;
+$color2: #5c0f02;
+$tomato: tomato;
+
+.table {
+	background-color: whitesmoke;
+	width: 1024px;
+	height: 700px;
+	border: 1px solid $black;
+	margin: 0 auto;
+	position: relative;
+	&__user1-place {
+		bottom: 7em;
+		left: 50%;
+		position: absolute;
+		display: flex;
+		background-color: $white;
+		transform: translate(-50%);
+		padding: 0;
+		gap: .2em;
+	}
+
+	&__animal {
+		list-style: none;
+		width: 6em;
+		height: 4em;
+		background-color: $color2;
+		color: $white;
+		text-align: center;
+      position: relative;
+	}
+   &__animal-property-list {
+      color: $black;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      position: absolute;
+      top: -6em;
+      left: 0;
+      display: flex;
+      flex-direction: column-reverse;
+   }
+   &__animal-property {
+      
+   }
+
+
+	&__user-cards {
+		border: 1px solid $black;
+		width: 6em;
+		text-align: center;
+		overflow-wrap: break-word;
+		&:hover {
+			background-color: green;
+		}
+	}
+
+	/* Игроки */
+.table__user1 {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  list-style: none;
+}
+
+.table__user2 {
+  left: 50%;
+  transform: translate(-50%);
+}
+
+
+   /* Кнопки */
+.table__card-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+}
+
+.btn {
+  border: 1px solid darkslategray;
+  padding: .5em 1em;
+  border-radius: 5px;
+  background-color: $tomato;
+  margin: .5em;
+}
+
+
+
+.btn:focus {
+  background-color: #5c0f02;
+}
+/*# sourceMappingURL=style.css.map */
+	&__user1 {
+		bottom: 0;
+		left: 50%;
+		transform: translate(-50%);
+		list-style: none;
+	}
+	&__user2 {
+		left: 50%;
+		transform: translate(-50%);
+	}
+	&__card-menu {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		bottom: 0;
+	}
+}
+.user {
+	background-color: $white;
+	border: 2px solid $black;
+	width: 36em;
+	height: 5em;
+	position: absolute;
+	display: flex;
+	gap: .2em;
+	padding: 0;
+}
+.btn {
+	border: 1px solid darkslategray;
+	padding: .5em 1em;
+	border-radius: 5px;
+	background-color: tomato;
+	margin: .5em;
+	&:focus {
+		background-color: $color2;
+	}
+}
+
+
